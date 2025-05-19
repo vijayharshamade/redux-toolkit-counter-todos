@@ -1,0 +1,33 @@
+.input {
+  padding: 10px;
+}
+.input-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.todo-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  padding: 20px;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid #ffffff; */
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.delete-button {
+  margin-left: auto;
+  background: none;
+}
