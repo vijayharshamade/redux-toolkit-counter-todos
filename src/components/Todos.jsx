@@ -45,7 +45,12 @@ const Todos = () => {
         </div>
         <ul className="todo-container">
           {todos.map((todo) => (
-            <TodoItem key={todo.id} text={todo.text} id={todo.id} />
+            <TodoItem
+              key={todo.id}
+              text={todo.text}
+              id={todo.id}
+              isChecked={todo.isChecked}
+            />
           ))}
         </ul>
       </div>
